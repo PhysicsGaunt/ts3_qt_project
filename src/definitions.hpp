@@ -8,9 +8,9 @@
 // this needs to be unique for each plugin
 #define CONFIG_FILE "qtexample.ini"
 
-#define PLUGIN_NAME "Qt Example Plugin"
-#define PLUGIN_AUTHOR "JUL14N"
-#define PLUGIN_DESCRIPTION "A simple Qt plugin to demonstrate a full toolchain."
+#define PLUGIN_NAME "Expanded Administration"
+#define PLUGIN_AUTHOR "PhysicsGaunt"
+#define PLUGIN_DESCRIPTION "A TS3 plugin for expanded administration."
 
 /*-------------------------- INTERNAL DEFINITIONS --------------------------*/
 // don't change this, it is replaced by the build script
