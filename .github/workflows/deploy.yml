@@ -6,7 +6,7 @@ on:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
 
 env:
-  PLUGIN_NAME: QtExamplePlugin
+  PLUGIN_NAME: ExpandedAdministration
 
 jobs:
   prebuild:
@@ -131,6 +131,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            ./QtExamplePlugin.${{ github.ref_name }}.ts3_plugin
+            ./ExpandedAdministration.${{ github.ref_name }}.ts3_plugin
           draft: false
           prerelease: false
