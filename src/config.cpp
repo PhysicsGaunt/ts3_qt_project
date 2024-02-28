@@ -7,7 +7,7 @@ config::config(const QString& configLocation, QWidget* parent /* = nullptr */) :
 {
 	m_ui->setupUi(this);
 
-	setWindowTitle("Qt Example Plugin :: Config");
+	setWindowTitle("Expanded Administration :: Config");
 
 	// Connect UI Elements.
 	connect(m_ui->pbOk, &QPushButton::clicked, this, &config::saveSettings);
