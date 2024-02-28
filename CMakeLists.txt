@@ -28,13 +28,13 @@ else()
 endif()
 
 # Use this to locate Qt5.15.2 on your development machine
-# list(APPEND CMAKE_PREFIX_PATH "H:/Qt/5.15.2/msvc2019_64")
+list(APPEND CMAKE_PREFIX_PATH "C:\Qt\6.6.2\msvc2019_64")
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 
 # Don't touch this, it will be set by the build script
-project("<plugin_name>")
+project("ExpandedAdministration")
 
 message("Looking for Qt...")
 
